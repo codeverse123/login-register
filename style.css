@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Tilt+Neon&display=swap');
+
+* {
+    font-family: "Josefin Sans", sans-serif;
+    transition: all .3s ease-in-out;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px rgba(126, 126, 126, 0.442);
+    height: 400px;
+    margin: 5% auto;
+    position: relative;
+    width: 40%;
+}
+
+#Sign_in {
+    position: absolute;
+    left: 0%;
+    width: 54%;
+    bottom: 0%;
+    top: 0%;
+    padding: 10px;
+    display: block;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#Sign_up {
+    right: 0%;
+    position: absolute;
+    bottom: 0%;
+    padding: 10px;
+    width: 51.4%;
+    border-top-right-radius: 10px;
+    display: none;
+    border-bottom-right-radius: 10px;
+    top: 0%;
+}
+
+.title {
+    display: block;
+    width: fit-content;
+    margin: 10% auto;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+#Sign_upbg .title {
+    color: white;
+    margin-top: 40%;
+}
+#Sign_inbg .title{
+    color: white;
+    margin-top: 40%;
+}
+
+#Sign_inbg {
+    position: absolute;
+    left: 0%;
+    width: 42%;
+    bottom: 0%;
+    top: 0%;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: none;
+    background: linear-gradient(45deg, #1A334C, #13202A);
+}
+
+#Sign_upbg {
+    right: 0%;
+    position: absolute;
+    bottom: 0%;
+    padding: 10px;
+    width: 40%;
+    border-top-right-radius: 10px;
+    display: block;
+    border-bottom-right-radius: 10px;
+    top: 0%;
+    background: linear-gradient(95deg, #1a3147, #294961);
+}
+
+.para {
+    color: rgb(229, 229, 229);
+    text-align: center;
+    display: block;
+    font-size: 13px;
+    width: 95%;
+    margin: 5% auto;
+}
+
+#Create_acc {
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid aliceblue;
+    font-size: 12px;
+    font-weight: 500;
+    height: fit-content;
+    width: 60%;
+    display: block;
+    margin: 15% auto;
+    cursor: pointer;
+    text-align: center;
+    color: aliceblue;
+}
+
+.fg {
+    padding: 5px;
+    width: fit-content;
+    height: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: .2px solid grey;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 20px;
+}
+.fg:hover{
+    transform: scale(1.02);
+    box-shadow: 1px 1px 5px rgba(97, 97, 97, 0.225);
+}
+.login_with {
+    display: block;
+    width: fit-content;
+    margin: 5% auto;
+}
+
+.text {
+    color: grey;
+    width: fit-content;
+    display: block;
+    margin: 2% auto;
+}
+
+#loginemail {
+    margin-top: 10%;
+}
+
+.ep {
+    padding: 10px;
+    background-color: rgba(212, 212, 212, 0.364);
+    outline: none;
+    border-radius: 2px;
+    border: none;
+    font-size: 15px;
+    color: black;
+    font-weight: 500;
+    display: block;
+    padding-left: 10px;
+    width: 75%;
+    margin: 3% auto;
+}
+#login,#sign_create{
+    background:linear-gradient(95deg, #1a3147, #294961);
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid aliceblue;
+    font-size: 12px;
+    font-weight: 500;
+    height: fit-content;
+    width: 50%;
+    display: block;
+    margin: 10% auto;
+    cursor: pointer;
+    text-align: center;
+    color: aliceblue;
+}
+
+#Sign_up #user{
+    margin-top: 8%;
+}
+#Sign_up #email{
+    margin-top: 3%;
+}
+
+#sign_create{
+    margin-top: 7%;
+}
+
+.forg{
+    color: rgb(90, 90, 90);
+    font-size: 13px;
+    margin-left: 32px;
+    cursor: pointer;
+    width: fit-content;
+    font-weight: 500;
+}
+
+input:focus{
+    transform: scale(1.04);
+    box-shadow: 1px 1px 5px rgba(139, 197, 231, 0.307);
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div id="Sign_in">
+            <span class="title">Sign in</span>
+            <div class="login_with">
+                <img src="facebook.png" alt="" srcset="" class="fg">
+                <img src="google.png" alt="" srcset="" class="fg">
+            </div>
+            <span class="text">or use your account</span>
+            <div class="input">
+                    <input type="email" name="email" id="loginemail" class="ep" placeholder="Email Address">
+                    <input type="password" name="pass" id="loginpass" class="ep" placeholder="Password">
+            </div>
+            <span class="forg">Forgot Password?</span>
+            <Button id="login"">SIGN IN</Button>
+        </div>
+        <div id="Sign_inbg">
+            <span class="title">Welcome Back!</span>
+            <p class="para">To keep connected with us please login with your personal info</p>
+            <Button id="Create_acc" onclick="sign_in()">SIGN IN</Button>
+        </div>
+        <div id="Sign_up">
+            <span class="title">Create Account</span>
+            <div class="login_with">
+                <img src="facebook.png" alt="" srcset="" class="fg">
+                <img src="google.png" alt="" srcset="" class="fg">
+            </div>
+            <span class="text">or use your email for registeration</span>
+            <div class="input">
+                    <input type="text" name="text" id="user" class="ep" placeholder="Username">
+                    <input type="email" name="email" id="email" class="ep" placeholder="Email Address">
+                    <input type="password" name="pass" id="pass" class="ep" placeholder="Password">
+
+            </div>
+            <Button id="sign_create"">SIGN UP</Button>
+        </div>
+        <div id="Sign_upbg">
+            <span class="title">Hello, Friend!</span>
+            <p class="para">Enter your personal details and start journey with us</p>
+            <Button id="Create_acc" onclick="sign_up()">SIGN UP</Button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
